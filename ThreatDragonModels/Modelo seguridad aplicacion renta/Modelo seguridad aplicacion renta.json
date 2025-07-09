@@ -38,6 +38,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -121,7 +122,6 @@
               ]
             },
             "id": "c15cdf83-d0a8-44db-99c3-830741ef8121",
-            "zIndex": 1,
             "data": {
               "type": "tm.Process",
               "name": "Aplicación web",
@@ -158,6 +158,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -241,7 +242,6 @@
               ]
             },
             "id": "22faefb5-d21c-48d4-87d9-7e708e8c4507",
-            "zIndex": 2,
             "data": {
               "type": "tm.Process",
               "name": "Autenticacion",
@@ -278,6 +278,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -361,7 +362,6 @@
               ]
             },
             "id": "5ed56430-a1be-48cc-9798-69046b22fe05",
-            "zIndex": 3,
             "data": {
               "type": "tm.Process",
               "name": "Pasarela de pagos",
@@ -398,6 +398,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 4,
             "ports": {
               "groups": {
                 "top": {
@@ -481,7 +482,6 @@
               ]
             },
             "id": "68acaf49-6fc0-4a35-9ce6-b4d460fece58",
-            "zIndex": 4,
             "data": {
               "type": "tm.Process",
               "name": "Verificación\n",
@@ -521,6 +521,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 5,
             "ports": {
               "groups": {
                 "top": {
@@ -604,7 +605,6 @@
               ]
             },
             "id": "af1989d5-7b62-4dd5-a935-bd43adeb626a",
-            "zIndex": 5,
             "data": {
               "type": "tm.Store",
               "name": "Store\nBase de datos",
@@ -642,6 +642,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 6,
             "ports": {
               "groups": {
                 "top": {
@@ -725,7 +726,6 @@
               ]
             },
             "id": "34b1adf5-1511-4460-bd0d-cd787435f177",
-            "zIndex": 6,
             "data": {
               "type": "tm.Actor",
               "name": "Navegador web",
@@ -1223,6 +1223,6 @@
     ],
     "diagramTop": 1,
     "reviewer": "",
-    "threatTop": 0
+    "threatTop": 2
   }
 }
