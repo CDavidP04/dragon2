@@ -31,8 +31,8 @@
                 "text": "Aplicación web"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -129,12 +129,56 @@
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "handlesCardPayment": false,
               "handlesGoodsOrServices": false,
               "isWebApplication": true,
               "privilegeLevel": "",
-              "threats": []
+              "threats": [
+                {
+                  "id": "b5fb4a07-7cc1-4f67-8331-f121354664c5",
+                  "title": "New STRIDE threat",
+                  "status": "Open",
+                  "severity": "Low",
+                  "type": "Spoofing",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 4,
+                  "score": ""
+                },
+                {
+                  "id": "e7c7b1d6-06f7-4e24-8a2e-361aaa87fb5b",
+                  "title": "New STRIDE threat2",
+                  "status": "Open",
+                  "severity": "Low",
+                  "type": "Tampering",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 5,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 1,
+                "tampering": 1,
+                "repudiation": 0,
+                "informationDisclosure": 0,
+                "denialOfService": 0,
+                "elevationOfPrivilege": 0
+              }
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
@@ -508,7 +552,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Store\nBase de datos"
+                "text": "Base de datos"
               },
               "topLine": {
                 "strokeWidth": 1.5,
@@ -607,7 +651,7 @@
             "id": "af1989d5-7b62-4dd5-a935-bd43adeb626a",
             "data": {
               "type": "tm.Store",
-              "name": "Store\nBase de datos",
+              "name": "Base de datos",
               "description": "",
               "outOfScope": true,
               "isTrustBoundary": false,
@@ -1294,6 +1338,6 @@
     ],
     "diagramTop": 1,
     "reviewer": "",
-    "threatTop": 3
+    "threatTop": 5
   }
 }
